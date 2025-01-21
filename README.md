@@ -15,7 +15,7 @@ Programing a full-stack e-commerce application for UCR students. This user-frien
 - The target audience will be UCR students (using ucr.edu verification)
 
 ### Economic feasibility
-- Using free options AWS, Firebase, Heroku, Stripe and more
+- Using free options AWS, Firebase, Stripe and more
 - Using open source technologies MongoDB, PostgreSQL
 
 ### Schedule feasibility
