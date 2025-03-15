@@ -1,0 +1,12 @@
+FOR BACKEND:
+
+npm install cors dotenv express mongoose jsonwebtoken nodemon razorpay stripe validator cloudinary bcrypt multer
+npm install --save-dev nodemon
+npm run dev
+
+
+
+FOR FRONTEND:
+npm install
+npm run dev
+
