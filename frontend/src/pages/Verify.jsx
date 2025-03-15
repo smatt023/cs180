@@ -1,6 +1,6 @@
 import React from 'react'
 import { useContext } from 'react'
-import { ShopContext } from '../../context/ShopContext'
+import { ShopContext } from '../context/ShopContext'
 import { useSearchParams } from 'react-router-dom'
 import { useEffect } from 'react'
 import {toast} from 'react-toastify'

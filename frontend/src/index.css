@@ -1,0 +1,112 @@
+/* Import Modern Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@400;700&display=swap');
+
+/* Tailwind Setup */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 🌟 Global Font & Background */
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #FFFFFF; /* Clean white background */
+    color: #333333; /* Deep gray text for readability */
+}
+
+/* 🌟 Headings with Elegant Serif Font */
+h1, h2, h3 {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    color: #1F2937; /* Darker gray for emphasis */
+}
+
+/* 🌟 Navbar Styling */
+.navbar {
+    background: white; /* White navbar */
+    border-bottom: 1px solid #E5E7EB; /* Subtle gray border */
+    padding: 12px 20px;
+}
+
+.navbar a {
+    font-weight: 500;
+    color: #3B82F6; /* Elegant blue */
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar a.active {
+    color: #1E40AF; /* Deep blue active state */
+    border-bottom: 3px solid #3B82F6;
+}
+
+.navbar a:hover {
+    color: #9333EA; /* Purple hover effect */
+}
+
+/* 🌟 Search Bar */
+.search-bar {
+    background: #F9FAFB; /* Soft gray background */
+    border: 1px solid #D1D5DB; /* Light gray border */
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.search-bar input {
+    background: transparent;
+    color: #333;
+    font-size: 16px;
+    width: 100%;
+}
+
+.search-bar img {
+    opacity: 0.6;
+    transition: opacity 0.3s;
+}
+
+.search-bar img:hover {
+    opacity: 1;
+}
+
+/* 🌟 Button Styling */
+button {
+    background: #3B82F6; /* Soft blue button */
+    color: white;
+    border-radius: 6px;
+    padding: 8px 16px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #1E40AF;
+    transform: scale(1.05);
+}
+
+/* 🌟 Smooth Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #F3F4F6;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #D1D5DB;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #9CA3AF;
+}
+
+/* 🌟 Mobile Optimized Styles */
+@media (max-width: 640px) {
+    a.active {
+        background-color: #3B82F6;
+        color: white;
+        border-radius: 5px;
+        padding: 6px 12px;
+    }
+}
+
